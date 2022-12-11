@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tuYnCm00a/Z8MoBp10QoxNO2U9ZS8QIt5tlJksdYB93f2SwxhTn2rQYZzuL2Y8KletST+HwVL8WewwMcvSO9wg==",
+  "dgSpecHash": "lMglaBEIaxzbsWoK6XIj5gFF4DhZWL0B3QQUJlCLc9ys7GAA4lX6V+vH/I5H2ZMnfAMYH3dMuJ2QjS2hoqKRNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noure\\OneDrive\\Desktop\\Shoe Store Application\\Shoe Store Application\\Shoe Store Application.csproj",
+  "projectFilePath": "C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Shoe Store Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noure\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\noure\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

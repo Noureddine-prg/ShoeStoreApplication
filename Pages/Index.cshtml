@@ -4,10 +4,33 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
+<link rel="stylesheet" href="~/css/HomePageStyleSheet.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap" rel="stylesheet">
 
+<div class="page-content vh-100"> 
+    <!-- This div will render specific user when logged in -->
 
+    
+    <div class="content-container">
+        <div class="user-container"> User: [Name] </div>
+    
 
+        <h1 class="header-text"> Welcome to our sneaker site! </h1>
+        <h2 class="header-text"> Feel free to look around. </h2>
 
+        <br />
+
+        <div class="shop-button"> 
+            <a style="color: white; text-decoration: none" href="/Users/RegisterUser?id="> SHOP NOW </a>
+        </div>
+    </div>
+    
+    <div class="image-container" >
+
+        <div id="outer-circle"></div>
+
+    </div>
 
 </div>

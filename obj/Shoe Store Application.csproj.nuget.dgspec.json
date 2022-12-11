@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noure\\OneDrive\\Desktop\\Shoe Store Application\\Shoe Store Application\\Shoe Store Application.csproj": {}
+    "C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Shoe Store Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noure\\OneDrive\\Desktop\\Shoe Store Application\\Shoe Store Application\\Shoe Store Application.csproj": {
+    "C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Shoe Store Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noure\\OneDrive\\Desktop\\Shoe Store Application\\Shoe Store Application\\Shoe Store Application.csproj",
+        "projectUniqueName": "C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Shoe Store Application.csproj",
         "projectName": "Shoe Store Application",
-        "projectPath": "C:\\Users\\noure\\OneDrive\\Desktop\\Shoe Store Application\\Shoe Store Application\\Shoe Store Application.csproj",
+        "projectPath": "C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Shoe Store Application.csproj",
         "packagesPath": "C:\\Users\\noure\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noure\\OneDrive\\Desktop\\Shoe Store Application\\Shoe Store Application\\obj\\",
+        "outputPath": "C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\noure\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

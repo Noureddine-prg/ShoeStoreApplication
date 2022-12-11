@@ -17,8 +17,9 @@ namespace Shoe_Store_Application.Pages.Users
             //Fill list
             try
             {
+                //Connection String here
                 //establish connection to database
-                String connectionString = "Data Source=.\\sqlexpress;Initial Catalog=RegisteredUsers;Integrated Security=True"; 
+                String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30"; 
                 
                 using (SqlConnection connection = new SqlConnection(connectionString)) { 
                     

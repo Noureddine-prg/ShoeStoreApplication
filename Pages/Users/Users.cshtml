@@ -1,0 +1,50 @@
+﻿@page
+@model Shoe_Store_Application.Pages.Users.IndexModel
+@{
+    ViewData["Title"] = "Users";
+}
+<link rel="stylesheet" href="~/css/UsersPageStyleSheet.css"/>
+
+<div class="wrapper">
+
+    <h1>List of Users</h1>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th> ID </th>
+                <th> Name </th>
+                <th> Email </th>
+                <th> Password </th>
+                <th> Created At </th>
+                <th> Action </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+
+        </tbody>
+    
+        <!-- goes through each element in list -->
+        @foreach (var item in Model.listUsers) {
+            <tr>
+                <td class="table-data">@item.id</td>
+                <td class="table-data">@item.name</td>
+                <td class="table-data">@item.email</td>
+                <td class="table-data">@item.password</td>
+                <td class="table-data">@item.created_at</td>
+
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Users/EditUser?id=@item.id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Users/DeleteUser?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+    <a class="newUser-button btn btn-primary btn-sm" href="/Users/RegisterUser?id="> New User </a>
+
+</div>
+
+<script src="~/js/HidePassword.js" asp-append-version="true"></script>

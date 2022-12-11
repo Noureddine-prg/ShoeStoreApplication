@@ -1,0 +1,22 @@
+﻿
+body {
+    background-color: white;
+}
+
+.table {
+    
+}
+
+.table-head {
+    
+}
+
+.table-data {
+    font-size: 20px;
+}
+
+h1 {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
