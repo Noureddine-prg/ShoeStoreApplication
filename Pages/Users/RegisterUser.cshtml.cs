@@ -32,7 +32,7 @@ namespace Shoe_Store_Application.Pages.Users
             try 
             {
                 //Connection string here
-                String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
+                String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Desktop\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
                 using (SqlConnection connection = new SqlConnection(connectionString)) 
                 {
                     connection.Open();

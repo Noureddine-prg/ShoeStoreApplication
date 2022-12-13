@@ -9,14 +9,15 @@ namespace Shoe_Store_Application.Pages.Users
         public UserInfo userInfo = new UserInfo();
         public String errorMessage = "";
         public String successMessage = "";
-        public String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\noure\\OneDrive\\Desktop\\SSA\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
+        
+        //Connection String goes here
+        public String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Desktop\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
 
         public void OnGet()
         {
             String id = Request.Query["id"]; //Make request
             try
             {
-                //Connection String goes here
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

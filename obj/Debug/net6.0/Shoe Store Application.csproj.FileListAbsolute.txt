@@ -69,3 +69,36 @@ C:\Users\noure\OneDrive\Desktop\SSA\obj\Debug\net6.0\refint\Shoe Store Applicati
 C:\Users\noure\OneDrive\Desktop\SSA\obj\Debug\net6.0\Shoe Store Application.pdb
 C:\Users\noure\OneDrive\Desktop\SSA\obj\Debug\net6.0\Shoe Store Application.genruntimeconfig.cache
 C:\Users\noure\OneDrive\Desktop\SSA\obj\Debug\net6.0\ref\Shoe Store Application.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\Shoe Store Application.staticwebassets.runtime.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\Shoe Store Application.exe
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\Shoe Store Application.deps.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\Shoe Store Application.runtimeconfig.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\Shoe Store Application.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\Shoe Store Application.pdb
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.AssemblyInfo.cs
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\scopedcss\bundle\Shoe Store Application.styles.css
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\scopedcss\projectbundle\Shoe Store Application.bundle.scp.css
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.csproj.CopyComplete
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\refint\Shoe Store Application.dll
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.pdb
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\Shoe Store Application.genruntimeconfig.cache
+C:\Users\User\Desktop\SSA\ShoeStoreApplication\obj\Debug\net6.0\ref\Shoe Store Application.dll

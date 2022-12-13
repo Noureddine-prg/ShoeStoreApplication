@@ -6,7 +6,7 @@
         String id = Request.Query["id"];
 
         //connection String here
-        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\noure\\OneDrive\\Desktop\\SSA\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
+        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Desktop\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
         using (SqlConnection connection = new SqlConnection(connectionString)) 
         {
             connection.Open();
