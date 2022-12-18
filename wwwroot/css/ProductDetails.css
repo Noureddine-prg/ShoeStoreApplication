@@ -1,0 +1,45 @@
+﻿.page-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    background-color: #B51A1A;
+}
+
+
+.left-container
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+}
+
+.product-image
+{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    padding: 50px;
+}
+
+.product-description
+{
+
+}
+
+.product-info
+{
+
+}
+
+.button-container {
+}

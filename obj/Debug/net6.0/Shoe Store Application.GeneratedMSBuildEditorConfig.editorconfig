@@ -5,52 +5,65 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shoe_Store_Application
 build_property.RootNamespace = Shoe_Store_Application
-build_property.ProjectDir = C:\Users\User\Desktop\SSA\ShoeStoreApplication\
+build_property.ProjectDir = C:\Users\noure\OneDrive\Desktop\SneakerStoreApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\SSA\ShoeStoreApplication
+build_property.MSBuildProjectDirectory = C:\Users\noure\OneDrive\Desktop\SneakerStoreApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Error.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Checkout/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Index.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Product/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Product/ProductPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxQcm9kdWN0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Users/DeleteUser.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Users/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Users/EditUser.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Users/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Users/RegisterUser.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Users/RegisterUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmVnaXN0ZXJVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Users/Users.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Users/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/_ViewImports.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/_ViewStart.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/SSA/ShoeStoreApplication/Pages/Shared/_Layout.cshtml]
+[C:/Users/noure/OneDrive/Desktop/SneakerStoreApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2i07b1ru2d

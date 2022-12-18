@@ -1,0 +1,49 @@
+﻿@page
+@model Shoe_Store_Application.Pages.Product.ProductDetailsModel
+@{
+}
+
+<link rel="stylesheet" href="~/css/ProductDetails.css" />
+
+<div class="page-content min-vh-100 ">
+
+    <div class="left-container min-vh-100">
+
+        <!-- Image Rendered depending on selected id from product page -->      
+        <img class="product-image" src="@Model.productInfo.image" />
+
+        <div class="product-description">
+            <!-- Description -->
+            <h1>
+                Details
+            </h1>
+
+            @Model.productInfo.description
+            <br />
+            <!-- Product Code -->
+            Product Code: @Model.productInfo.id
+        </div>
+
+    </div>
+
+
+    <div class="right-container min-vh-100">
+
+        <div class="product-info">
+            <!-- Product Name -->
+            <h1> @Model.productInfo.name</h1>
+
+            <!-- Product Category-->
+            <h1> @Model.productInfo.category Shoes</h1>
+
+            <!-- Product Price -->
+            <h3> Hello</h3>
+        </div>
+
+        <div class="button-container">
+            <button></button>
+        </div>
+
+    </div>
+
+</div>

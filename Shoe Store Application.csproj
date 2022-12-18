@@ -8,13 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Pages\NewFolder\**" />
-    <Content Remove="Pages\NewFolder\**" />
-    <EmbeddedResource Remove="Pages\NewFolder\**" />
-    <None Remove="Pages\NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.4" />
   </ItemGroup>
 

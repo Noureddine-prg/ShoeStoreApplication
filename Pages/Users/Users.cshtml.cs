@@ -21,7 +21,7 @@ namespace Shoe_Store_Application.Pages.Users
             {
                 //Connection String here
                 //establish connection to database
-                String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Desktop\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30"; 
+                String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\Database\\Database\\ShoeStoreApplication.mdf;Integrated Security=True;Connect Timeout=30"; 
                 
                 using (SqlConnection connection = new SqlConnection(connectionString)) { 
                     

@@ -11,7 +11,7 @@ namespace Shoe_Store_Application.Pages.Users
         public String successMessage = "";
         
         //Connection String goes here
-        public String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\User\\Desktop\\Database\\Users\\RegisteredUsers.mdf;Integrated Security=True;Connect Timeout=30";
+        public String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\Database\\Database\\ShoeStoreApplication.mdf;Integrated Security=True;Connect Timeout=30";
 
         public void OnGet()
         {

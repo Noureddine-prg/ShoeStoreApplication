@@ -1,0 +1,39 @@
+﻿@page
+@model Shoe_Store_Application.Pages.Product.IndexModel
+@{
+    ViewData["Title"] = "Sneakers";
+}
+
+<link rel="stylesheet" href="~/css/ProductPage.css" />
+
+<div class="page-content">
+    <div class="wrapper">
+        
+        @foreach (var item in Model.listProduct)
+        {
+            <div class="product-container">
+
+                <a href="/Product/ProductDetails/?id=@item.id">
+                    <div class="product-image">
+                    
+                        <img src=@item.image>
+                       
+                        <div class="product-price mt-2 text-decoration-none">
+                            @item.price
+                        </div>
+                    </div>
+
+                    <div class="product-name text-decoration-none">
+                        @item.name
+                    </div>
+                </a>
+
+            </div>
+        }
+    </div>
+
+
+
+
+</div>
+
