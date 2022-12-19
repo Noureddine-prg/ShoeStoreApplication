@@ -20,7 +20,8 @@
     display: flex;
     width: 50%;
     height: 100%;
-
+    flex-direction: column;
+    padding: 100px;
 }
 
 .product-image
@@ -29,6 +30,7 @@
     height: 500px;
     background-color: white;
     padding: 50px;
+    border-radius: 25px;
 }
 
 .product-description
@@ -42,4 +44,11 @@
 }
 
 .button-container {
+    height: 200px;
+    width: 100px;
+}
+
+row 
+{
+    border: solid black 2px;
 }

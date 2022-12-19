@@ -13,24 +13,26 @@
         {
             <div class="product-container">
 
-                <a href="/Product/ProductDetails/?id=@item.id">
+                <a class="text-decoration-none" href="/Product/ProductDetails/?id=@item.id">
                     <div class="product-image">
                     
                         <img src=@item.image>
                        
-                        <div class="product-price mt-2 text-decoration-none">
-                            @item.price
-                        </div>
                     </div>
-
+                        
                     <div class="product-name text-decoration-none">
                         @item.name
+                    </div>
+                    <div class="product-price text-decoration-none">
+                            $@item.price
                     </div>
                 </a>
 
             </div>
         }
     </div>
+
+
 
 
 

@@ -1,0 +1,25 @@
+﻿@page
+@model Shoe_Store_Application.Pages.Users.LoginModel
+@{
+}
+
+<div class="container-md border mt-5 m-auto">
+    @Model.message
+    <form method="post" asp-page="Login">
+        <div class="form-group">
+            <label class="col-sm-3 col-form-label"> Email </label>
+            <input asp-for="@Model.Email" type="text" class="form-control" name="email">
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 col-form-label"> Password </label>
+            <input asp-for="@Model.Password" type=" text" class="form-control" name="email">
+        </div>
+
+        <div class="form-group mt-5 mb-md-3 d-flex justify-content-center">
+            <button type="submit" value="Login" class="rounded-3 btn-primary w-25 "> Submit </button>
+            <input class=" rounded-3 btn-danger w-25" type="button" value="Cancel" onclick="window.location = '/'" />
+        </div>
+    </form>
+
+</div>

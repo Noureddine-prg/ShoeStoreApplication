@@ -5,8 +5,28 @@
       "PackagePath": "staticwebassets\\Shoe Store Application.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\DunkAluminum.PNG",
+      "PackagePath": "staticwebassets\\Images\\DunkAluminum.PNG"
+    },
+    {
+      "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\DunkAust.PNG",
+      "PackagePath": "staticwebassets\\Images\\DunkAust.PNG"
+    },
+    {
+      "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\DunkBlackWhite.PNG",
+      "PackagePath": "staticwebassets\\Images\\DunkBlackWhite.PNG"
+    },
+    {
+      "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\DunkKentuky.PNG",
+      "PackagePath": "staticwebassets\\Images\\DunkKentuky.PNG"
+    },
+    {
       "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\DunkLaker.PNG",
       "PackagePath": "staticwebassets\\Images\\DunkLaker.PNG"
+    },
+    {
+      "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\DunkSyracuse.PNG",
+      "PackagePath": "staticwebassets\\Images\\DunkSyracuse.PNG"
     },
     {
       "Id": "C:\\Users\\noure\\OneDrive\\Desktop\\SneakerStoreApplication\\wwwroot\\Images\\Sneaker.PNG",

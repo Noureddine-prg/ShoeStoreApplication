@@ -1,157 +1,163 @@
-﻿@page
-@model Shoe_Store_Application.Pages.Checkout.CheckoutModel
-@{
-}
+﻿@page 
+@model Shoe_Store_Application.Pages.Checkout.CheckoutModel 
+@using Microsoft.AspNetCore.Http 
+@{ }
 
-<link rel="stylesheet" href="~/css/Checkout.css"/>
+<link rel="stylesheet" href="~/css/Checkout.css" />
 
-
-<div class="container-fluid min-vh-100 p-4" style="background-color: #B51A1A">
+<div class="container-fluid min-vh-100 p-4" style="background-color: #b51a1a">
   <div class="container-sm mb-4">
-	  <button class="checkout-button checkout-shadow" style="background-color: #D9D9D9">Back</button>	
+    <a href="/Product/ProductPage">
+      <button
+        class="checkout-button checkout-shadow"
+        style="background-color: #d9d9d9"
+      >
+        Back
+      </button>
+    </a>
   </div>
-  <div class="container-sm" style="color: white" >	
-	  <div class="row g-5">
-			<div class="col order-lg-last">
-				<!-- ORDER SUMMARY -->
-				<div class="container-fuid p-4 mb-5 checkout-shadow" style="background-color: #D9D9D9; color: #000000">
-					<p class="h3 fw-bold">ORDER SUMMARY</p>
-					<div class="row justify-content-between">
-						<div class="col-6">
-							<p style=" h5 fw-bold"># ITEMS</p>
-						</div>	
-						<div class="col-auto">
-							<p>$$$</p>
-						</div>	
-					</div>
-					<div class="row justify-content-between">
-						<div class="col-6">
-							<p>DELIVERY</p>
-						</div>	
-						<div class="col-auto">
-							<p>FREE</p>
-						</div>	
-					</div>
-					<div class="row justify-content-between mb-5">
-						<div class="col-6">
-							<p>SALES TAX</p>
-						</div>	
-						<div class="col-auto">
-							<p>$$$</p>
-						</div>	
-					</div>
-					<div class="row justify-content-between">
-						<div class="col-6">
-							<p class="h4 fw-bold">TOTAL</p>
-						</div>	
-						<div class="col-auto">
-							<p class="h4 fw-bold">$$$</p>
-						</div>	
-					</div>
-				</div> 
-				<div class="container" style="color: #000000">
-					<p class="h3 fw-bold">ORDER DETAILS</p>
-					<!-- Loop through each item in user cart to display shoes HERE -->
-					<div class="row mb-5">
-						<div class="col-6" style="background-color: grey; height: 200px">
-							<!-- Picture HERE -->
-						</div>
-						<div class="col-6">
-							<div class="d-flex flex-column h-100">
-								<div class="col">
-									<p class="h4 fw-bold"> Nike Air Force 1 Low:</p>
-									<p class="h6 fw-bold"> other description...</p>
-								</div>
-								<div class="row justify-content-between">
-									<div class="col">
-										<p class="h5 fw-bold">Size: 7</p>
-									</div>
-									<div class="col-auto">
-										<p class=" h5 fw-bold">$$$</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row mb-5">
-						<div class="col-6" style="background-color: grey; height: 200px">
-							<!-- Picture HERE -->
-						</div>
-						<div class="col-6">
-							<div class="d-flex flex-column">
-								<div class="col">
-									<p class="h4 fw-bold"> Nike Air Force 1 Low:</p>
-									<p class="h6 fw-bold"> other description...</p>
-								</div>
-								<div class="row justify-content-between">
-									<div class="col">
-										<p class="h5 fw-bold">Size: 7</p>
-									</div>
-									<div class="col-auto">
-										<p class=" h5 fw-bold">$$$</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row mb-5">
-						<div class="col-6" style="background-color: grey; height: 200px">
-							<!-- Picture HERE -->
-						</div>
-						<div class="col-6">
-							<div class="d-flex flex-column">
-								<div class="col">
-									<p class="h4 fw-bold"> Nike Air Force 1 Low:</p>
-									<p class="h6 fw-bold"> other description...</p>
-								</div>
-								<div class="row justify-content-between">
-									<div class="col">
-										<p class="h5 fw-bold">Size: 7</p>
-									</div>
-									<div class="col-auto">
-										<p class=" h5 fw-bold">$$$</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		  <div class="col-lg-7 order-lg-first">
-				<form>
-					<h1 class="mb-4">Contact Details</h1>
-					<div class="row mb-4">
-						<div class="col-8">
-							<input class="checkout-input checkout-shadow" placeholder="EMAIL*" />
-						</div>
-					</div>
-					<h2>Shipping Address</h2>
-					<div class="row mb-4">
-						<div class="col-6">
-							<input class="checkout-input checkout-shadow" placeholder="FIRST NAME*" />
-						</div>
-						<div class="col-6">
-							<input class="checkout-input checkout-shadow" placeholder="LAST NAME*" />
-						</div>
-					</div>
-					<div class="row mb-4">
-						<div class="col">
-							<input class="checkout-input checkout-shadow" placeholder="DELIVERY ADDRESS*" />
-						</div>
-					</div>
-					<div class="row mb-4">
-						<div class="col-6">
-							<input class="checkout-input checkout-shadow" placeholder="PHONE NUMBER*" />
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<input class="checkout-submit" type="submit" value="REVIEW AND PAY"/>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
 
-	</div>
+  <div class="container-sm" style="color: white">
+    <div class="row g-5">
+      <div class="col order-lg-last">
+        <!-- ORDER SUMMARY -->
+        <div
+          class="container-fuid p-4 mb-5 checkout-shadow"
+          style="background-color: #d9d9d9; color: #000000"
+        >
+          <p class="h3 fw-bold">ORDER SUMMARY</p>
+          <div class="row justify-content-between">
+            <div class="col-6">
+              <p style="h5 fw-bold"># ITEMS:</p>
+            </div>
+            <div class="col-auto">
+              <p>@Model.totalItems</p>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-6">
+              <p>DELIVERY</p>
+            </div>
+            <div class="col-auto">
+              <p>FREE</p>
+            </div>
+          </div>
+          <div class="row justify-content-between mb-5">
+            <div class="col-6">
+              <p>SALES TAX</p>
+            </div>
+            <div class="col-auto">
+              <p>$@Model.salesTax</p>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-6">
+              <p class="h4 fw-bold">TOTAL</p>
+            </div>
+            <div class="col-auto">
+              <p class="h4 fw-bold">$@Model.totalPrice</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" style="color: #000000">
+          <p class="h3 fw-bold">ORDER DETAILS</p>
+
+          <!-- Loop through each item in user cart to display shoes HERE -->
+          @foreach (var item in Model.itemList) {
+          <div class="row mb-5">
+            <div class="col-6">
+              <div style="width: 600px; height: 300px; background-color: white">
+                <!-- Picture HERE -->
+                <img style="width:100%; height: 100%; object-fit:contain;" src="@item.image" />
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex flex-column h-100">
+                <div class="col">
+                  <p class="h4 fw-bold">@item.name</p>
+                  <p class="h6 fw-bold">@item.description</p>
+                </div>
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <p class="h5 fw-bold">Size: @item.size</p>
+                  </div>
+                  <div class="col-auto">
+                    <p class="h5 fw-bold">$@item.price</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          }
+
+          <div class="col-lg-7 order-lg-first">
+            <form>
+              <h1 class="mb-4">Contact Details</h1>
+
+              <div class="row mb-4">
+                <div class="col-8">
+                  <input
+                    class="checkout-input checkout-shadow"
+                    placeholder="EMAIL*"
+                  />
+                </div>
+              </div>
+
+              <h2>Shipping Address</h2>
+
+              <div class="row mb-4">
+                <div class="col-6">
+                  <input
+                    class="checkout-input checkout-shadow"
+                    placeholder="FIRST NAME*"
+                  />
+                </div>
+
+                <div class="col-6">
+                  <input
+                    class="checkout-input checkout-shadow"
+                    placeholder="LAST NAME*"
+                  />
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="col">
+                  <input
+                    class="checkout-input checkout-shadow"
+                    placeholder="DELIVERY ADDRESS*"
+                  />
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="col-6">
+                  <input
+                    class="checkout-input checkout-shadow"
+                    placeholder="PHONE NUMBER*"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col"></div>
+              </div>
+            </form>
+
+            <button onclick="handleClick()" class="checkout-submit">
+              SUBMIT ORDER
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let handleClick = () => {
+      alert('Your order was completed');
+    };
+  </script>
 </div>

@@ -1,8 +1,11 @@
 ﻿@page
 @model Shoe_Store_Application.Pages.Product.ProductDetailsModel
-@{
-}
+@using Microsoft.AspNetCore.Http
 
+
+@{
+
+}
 <link rel="stylesheet" href="~/css/ProductDetails.css" />
 
 <div class="page-content min-vh-100 ">
@@ -34,16 +37,33 @@
             <h1> @Model.productInfo.name</h1>
 
             <!-- Product Category-->
-            <h1> @Model.productInfo.category Shoes</h1>
+            <h2> @Model.productInfo.category shoe</h2>
 
-            <!-- Product Price -->
-            <h3> Hello</h3>
+            <!-- Product Price -->  
+            <h3> $@Model.productInfo.price</h3>
         </div>
 
-        <div class="button-container">
-            <button></button>
-        </div>
+
+
+        <form method="post">
+            <input type="submit" value="Add to Cart"/>        
+        </form>
+
+       
 
     </div>
+    
+
 
 </div>
+
+<script>
+    let handleClick = () => 
+    {
+
+
+        console.log("Hello");   
+    }
+
+</script>
+

@@ -63,3 +63,4 @@ namespace Shoe_Store_Application.Pages.Product
         public int price;
     }
 }
+
